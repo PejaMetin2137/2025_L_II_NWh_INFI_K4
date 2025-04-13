@@ -11,3 +11,7 @@ workflows:
   basic:
     jobs:
       - build-and-test
+      
+      docker_build: 
+
+docker build -t hello-world-printer . 
