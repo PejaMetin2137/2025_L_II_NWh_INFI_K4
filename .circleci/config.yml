@@ -10,7 +10,7 @@ jobs:
 workflows:
   basic:
     jobs:
-      - build-and-test
+      -build-and-test
       
       docker_build: 
 
